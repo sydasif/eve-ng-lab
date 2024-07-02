@@ -1,6 +1,6 @@
 # How to Install EVE-NG on Microsoft Hyper-V
 
-In this blog, I will guide you through the process of installing EVE-NG on Microsoft Hyper-V. Typically, I use GNS3 on VMware as recommended by the documentation. However, there is a glitch: Microsoft Hyper-V and WSL2 does not coexist well with VMWare on the same machine.
+In this blog, I will guide you through the process of installing EVE-NG on Microsoft Hyper-V. Typically, I use GNS3 on VMware as recommended by the documentation. However, if you want to use a Docker Desktop on Windows and WSL2, there is a glitch: Microsoft Hyper-V and WSL2 do not coexist well with VMWare on the same machine.
 
 During my research, I found an article titled [How to install EVE-NG on Microsoft Hyper-V](https://aboutnetworks.net/eve-ng-on-hyper-v/), written on November 15, 2018. The tutorial was based on Ubuntu Server 16.04. I applied the same procedure to Ubuntu Server 22.04 but did not succeed due to differences in the Ubuntu versions used.
 
